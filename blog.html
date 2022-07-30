@@ -1,76 +1,76 @@
 <!DOCTYPE html>
-<html lang = "en">
-	<head>
-  	<meta charset="UTF-8">
-		<meta name="viewport"
-		content="width=device-width, initial-scale=1.0" />
+<html lang="en">
 
-  	<title>Michael Yu's Website</title>
-		<link rel="stylesheet" href="style.css" type="text/css">
-	</head>
-	<body>
-		<nav>
-		<div class="nav-center">
-			<ul class="nav-links">
-				<li>
-					<a href="index.html">HOME</a>
-				</li>
-				<li>
-					<a href="about.html">ABOUT</a>
-				</li>
-				<li><a href="projects.html">PROJECTS</a></li>
-				<li>
-					<a href="blog.html">BLOG</a>
-				</li>
-				<li>
-					<a href="contact.html">CONTACT</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<br>
-	<div class="blog-container">
-	<h2>NP-Complete Problems are Everywhere</h2>
-	<br>
+    <title>Michael Yu's Website</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
 
-	<p>An NP-Complete problem that I have encountered previously is the game Battleship, in which I played a lot during middle school.
-	<br><br>
-		Battleship is a 1v1 game that’s usually played on a 10x10 grid in which the two players each have a fleet of battleships that take up a certain length that they place on their board, hidden from the opponent. The players then take turns guessing the coordinates of each other’s boards, attempting to hit an enemy battleship. Once all parts of a battleship are guessed correctly, that battleship is sunk. Whoever sinks all enemy battleships wins.
-		<br><br>
-		Battleship is an NP-Complete problem because it is both NP and NP-hard. 
-		<br><br>
-		Battleship is NP because given a certificate that is a guess of all the positions of where the battleships are on the grid, we can efficiently check if the guess correctly sinks all parts of every enemy ship. This will take the size of the guesses certificate, which is O(n^2) where n is the length of a side of the grid.
-		<br><br>
-		Battleship is NP-hard because we can reduce the 3SAT problem to the battleship problem. And since 3SAT is NP-hard, battleship is NP-hard. Another way to intuit that battleship is NP-hard is that there is no efficient algorithm for solving it. However, there can be heuristics that could help, such as guessing the squares up, down, left, and right of a correct guess.
-		</p>
-		<br>
-		<hr>
-		<p><small>November 10, 2021</small></p>
-		<br><br><br><br><br>
+<body>
+    <nav>
+        <div class="nav-center">
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About Me</a>
+                </li>
+                <li><a href="projects.html">Projects</a></li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="resume.html">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-		<h2>Perplexed</h2>
-		<br>
-	
-		<p>It seems self explanatory to consider the problem of identifying when a pedestrian is about to cross the street relatively easy, based on simple body language and visual cues. Most of us could also agree that learning to play chess or the game go at a high level is much, much harder. 
-		<br><br>
-		However, Naomi Oreskes, professor of the history of science at Harvard University considers in the article “What Makes a Problem ‘Hard’”, appearing in May 2021’s issue of ScientificAmerican, that perhaps our assumptions of what makes something difficult are not so conclusive. 
-			<br><br>
-			She argues that although it is presumably “easy” for us to identify when someone is about to cross the street, the problem is much more difficult to solve for self-driving cars. And while it’s ridiculously difficult to play chess and game go at world-class levels, AI can do so comparatively easily. The reason is because these games have a limited number of possibilities that they turn out contained in the games’ rules, while identifying someone’s body language is subjective and depends on social cues- something that machines can’t grasp easily. 
+    <br>
+    <div class="blog-container">
+        <h2>NP-Complete Problems are Everywhere</h2>
+        <br>
 
-			<br><br>
-			She extends this idea to the COVID vaccine, which at first seemed difficult to engineer but simple to vaccinate everyone once developed, but soon proved the opposite. It turns out that designing the vaccine was relatively simple compared to the difficult task of vaccinating everyone. Naomi says that we might be confusing “difficult with scarcity”, and that many of the things all of us can do are actually quite difficult, while those that we think are difficult are actually quite easy once broken down for the hard sciences to handle.
-			</p>
-			<br>
-			<hr>
-			<p><small>June 10, 2021</small></p>
-			<br><br><br><br><br>
+        <p>An NP-Complete problem that I have encountered previously is the game Battleship, in which I played a lot
+            during middle school.
+            <br><br>
+            Battleship is a 1v1 game that’s usually played on a 10x10 grid in which the two players each have a fleet of
+            battleships that take up a certain length that they place on their board, hidden from the opponent. The
+            players then take turns guessing the coordinates of each other’s boards, attempting to hit an enemy
+            battleship. Once all parts of a battleship are guessed correctly, that battleship is sunk. Whoever sinks all
+            enemy battleships wins.
+            <br><br>
+            Battleship is an NP-Complete problem because it is both NP and NP-hard.
+            <br><br>
+            Battleship is NP because given a certificate that is a guess of all the positions of where the battleships
+            are on the grid, we can efficiently check if the guess correctly sinks all parts of every enemy ship. This
+            will take the size of the guesses certificate, which is O(n^2) where n is the length of a side of the grid.
+            <br><br>
+            Battleship is NP-hard because we can reduce the 3SAT problem to the battleship problem. And since 3SAT is
+            NP-hard, battleship is NP-hard. Another way to intuit that battleship is NP-hard is that there is no
+            efficient algorithm for solving it. However, there can be heuristics that could help, such as guessing the
+            squares up, down, left, and right of a correct guess.
+        </p>
+        <br>
+        <hr>
+        <p><small>November 10, 2021</small></p>
+        <br><br><br><br><br>
+
+        <h2>Perplexed</h2>
+        <br>
 
 
 
-	</div>
- 	
 
-		<script src="app.js"></script>
-	</body>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
 </html>
