@@ -163,3 +163,7 @@ button[type="submit"]:hover{
 #slider-image-3:target ~ .image-container{
 	left: -1600px;
 }
+
+.contact-info{
+    text-align: center;
+}
