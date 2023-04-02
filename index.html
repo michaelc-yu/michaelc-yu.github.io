@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Michael Yu's Website</title>
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
-<body bgcolor="#b7c9e2">
+<body class="bg">
     <nav>
         <div class="nav-center">
             <ul class="nav-links">
@@ -18,24 +16,180 @@
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="blog.html">Blog</a></li>
             </ul>
-
-            <img src="images/LA_background.jpg" alt="" class="center" width="1310" height="983"
-                style="margin-left: 60px;">
-
-            <!--	
-				width="1008" height="756">
-			-->
-
         </div>
     </nav>
     <br>
+    <span class="info">
+        <br><br>
+        <p style="font-size: 20px">Hi, I'm Michael Yu.</p>
+        <br>
+        <img id="profile" src="images/colorfulportrait-modified-2.png" style alt="" class="center" width="380" height="380">
+        <br>
 
-    <img src="images/Me_in_nyc.jpeg" alt="" class="center" width="540" height="720">
-    <br>
-    <img src="images/hiking.jpg" alt="" class="center" width="1008" height="756">
+        <div class="container">
+            <h1>I am <span class="elt"></span></h1>
+        </div>
+
+        <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed(".elt", {
+                strings: ["a Software Engineer.", "an avid learner.", "a tennis player."],
+                typeSpeed: 50,
+                backSpeed: 30,
+                loop: true
+            })
+        </script>
+    </span>
+    <br><br><br>
+
+    <div class="contact-info">
+        <a href="https://www.linkedin.com/in/michael-yu-655190187/"><img class="contact-link" src="./images/linkedin-icon.png"
+            style="width:54px;height:54px;"></a>
+        <a href="https://github.com/michaelc-yu"><img class="contact-link" src="./images/Octocat.png" style="width:80px; height:66.5px;"></a>
+        <a href="mailto:c.michael.yu@gmail.com"><img class="contact-link" src="./images/mailto.png"
+            style="width:70px; height:70px; position:relative; top:7px"></a>
+        <a href="https://www.instagram.com/michaelyu68/" target="_blank"><img class="contact-link" src="images/instagram.png" alt="instagram link"
+            style="width:50px; height:50px;"></a>
+    </div>
+    <br><br><br>
 
 
-    <script src="app.js"></script>
+    <br><br><br><br><br>
+
+
+    <h2>
+        <div style="text-align:center">About Me</div>
+    </h2>
+    <br><br><br>
+    <span class="info">
+        <br>
+        <p class="about-me">Hi, I'm a senior at the University of Michigan pursuing a B.S. in computer science. I'm
+            proficient in C, C++, Python, and am familiar with JavaScript, HTML/CSS as well. I have been enjoying
+            participating in weekly Leetcode coding competitions and am trying to get more into competitive programming. I
+            also developed a love for reading books during my sophomore year of college. Here are some of the books I
+            particularly enjoyed.</p>
+        <br><br>
+        <div class="books">
+            Antifragile by Nassim Taleb
+            <br>
+            Lives of the Stoics by Ryan Holiday and Stephen Hanselman
+            <br>
+            Algorithms to Live By by Brian Christian and Thomas Griffiths
+            <br>
+            I Will Teach You To Be Rich by Ramit Sethi
+            <br>
+            Man's Search for Meaning by Viktor Frankl
+            <br>
+            1984 by George Orwell
+            <br>
+            Mastery by Robert Greene
+            <br>
+            Predictably Irrational by Dan Ariely
+            <br>
+            Sapiens: A Brief History of Humankind by Yuval Noah Harari
+            <br>
+            Naked Statistics: Stripping the Dread from the Data by Charles Wheelan
+            <br>
+            The Art Of Choosing by Sheena Iyenga
+            <br>
+            Range: Why Generalists Triumph in a Specialized World by David Epstein
+            <br>
+            Beyond Good and Evil by Friedrich Nietzsche
+            <br>
+            The Prince by Niccolo Machiavelli
+            <br>
+            The Defining Decade by Meg Jay
+            <br>
+            <br>
+            <br>
+            <br>
+    
+        </div>
+    
+    </span>
+    <br><br><br>
+
+
+    <br><br><br><br><br>
+
+
+
+    <h1>
+        <div style="text-align:center">Projects</div>
+    </h1>
+    <br><br><br><br>
+    <div class="projects">
+        <div class="project-container">
+            <br>
+            <h3 style="text-align: center;">AccuSleep</h3><br>
+            <img src="images/accusleep.png" style class="center" width="507" height="349.05" border-radius=10px;><br>
+            <p style="text-align: center; margin-left:20px; margin-right:20px">
+                AccuSleep is a set of GUIs used to score sleep states using EEG and EMG recordings. I added new
+                functionalities within a 2500+ line code base to allow researchers to score sleep states with increased
+                accuracy.
+                I created new categories and buttons for artifact sleep states to allow researchers to account for
+                extraneous and
+                unintended factors affecting the results of data collection.
+            </p>
+        </div>
+        <div class="project-container">
+            <br>
+            <h3 style="text-align: center;">Genetic Mutation Algorithm</h3>
+            <br>
+            <!-- <img src="images/geneticalgo.jpeg" style class="center" width="329.4.5" height="367.2" border-radius=10px;><br> -->
+            <p style="text-align: center; margin-left:20px; margin-right:20px">
+                Inspired by Mendelian Genetics, I created a python program that's meant to provide a rudimentary simulation
+                of the rate at which
+                germline mutations propagate through multiple filial generations.
+            </p>
+        </div>
+        <div class="project-container">
+            <br>
+            <h3 style="text-align: center;">ElderTree</h3>
+            <br>
+            <p style="text-align: center; margin-left:20px; margin-right:20px">
+                Designed and created a scalable application for elders to connect using React.js, Flask, SQL, Python,
+                HTML/CSS, and
+                hosted on Amazon Web Services’s EC2.
+            </p>
+        </div>
+        <div class="project-container">
+            <br>
+            <h3 style="text-align: center;">Network File Server</h3>
+            <br>
+            <img src="images/nfs_arc.jpeg" style class="center" width="528" height="361.5" border-radius=10px;><br>
+            <p style="text-align: center; margin-left:20px; margin-right:20px">
+                Implemented a client-server file system that allows for multiple clients to read/write to files and
+                create/delete files or directories concurrently.
+                Gained understanding of inodes, persistent storage via transactions, and hand-over-hand locking. I
+                diagrammed the architecture
+                shown above on LucidCharts.
+            </p>
+        </div>
+        <div class="project-container">
+            <br>
+            <h3 style="text-align: center;">Thread Library</h3>
+            <br>
+            <p style="text-align: center; margin-left:20px; margin-right:20px">
+                Implemented entire thread library that respects concurrency on multiple CPUs utilizing interrupts and atomic
+                test and
+                set. Implemented functionality from scratch for thread join, thread yield, mutex lock, unlock, CV wait,
+                signal, broadcast, and CPU init.
+            </p>
+        </div>
+        <div class="project-container">
+            <br>
+            <h3 style="text-align: center;">Search Engine</h3>
+            <br>
+            <p style="text-align: center; margin-left:20px; margin-right:20px">
+                Built a scalable search engine using text analysis, link analysis, and parallel data processing with
+                MapReduce.
+                Used a Service-Oriented Architecture to scale dynamic pages and web search.
+            </p>
+        </div>
+    </div>
+
+
+
 </body>
-
 </html>

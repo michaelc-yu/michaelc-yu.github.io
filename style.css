@@ -3,6 +3,29 @@
 	padding: 0;
 	font-family: "popppins", sans-serif;
 	box-sizing: border-box;
+    font-weight: 500;
+}
+
+:root{
+    --primary-color: #fff;
+    --secondary-color: #000;
+
+}
+
+.bg{
+    background: #f6f6f6;
+}
+
+#profile{
+    height: 200px;
+    width: 200px;
+    left: 20px;  
+}
+
+.container h1{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
 }
 
 .header{
@@ -21,6 +44,11 @@ nav{
 
 .nav-links{
 	padding: 28px 0;
+}
+
+.nav-center{
+    background-color: #E8E8E8;
+    width: 3000px;
 }
 
 .nav-links li{
@@ -59,10 +87,28 @@ nav{
 .info{
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 180%;
+}
+
+.books {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 400px;
+    margin-right: 200px;
+    line-height: 180%;
 }
 
 .form{
-	margin-left: 80px;;
+	margin-left: 80px;
 }
 
 .form-group{
@@ -101,8 +147,9 @@ button[type="submit"]:hover{
 }
 
 .projects{
-	margin-left: 60px;
-	margin-right: 400px;
+	margin-left: 400px;
+    align-items: center;
+    line-height: 160%;
 }
 
 .blog-container{
@@ -110,7 +157,6 @@ button[type="submit"]:hover{
 	margin-right: 300px;
 	margin-top: 20px;
 	line-height: 25px;
-	
 }
 
 .slide-container{
@@ -166,4 +212,33 @@ button[type="submit"]:hover{
 
 .contact-info{
     text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-link {
+    transition: 1s ease;
+}
+
+.contact-link:hover{
+    -webkit-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+    transition: 1s ease;
+}
+
+.project-container {
+    outline:#080008;
+    outline: 0.01em solid black; float: left;
+    height:620px;
+    width:550px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    box-shadow: 10px 10px 5px darkgrey;
+}
+
+.project-container:hover {
+    background-color: lightsteelblue;
+    transition-delay: 0.04s;
 }
