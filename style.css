@@ -48,7 +48,7 @@ nav{
 
 .nav-center{
     background-color: #E8E8E8;
-    width: 3000px;
+    width: 100%;
 }
 
 .nav-links li{
@@ -94,8 +94,8 @@ nav{
 .about-me {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 350px;
+    margin-right: 350px;
     line-height: 180%;
 }
 
