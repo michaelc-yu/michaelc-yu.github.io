@@ -6,6 +6,10 @@
     font-weight: 500;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root{
     --primary-color: #fff;
     --secondary-color: #000;
@@ -49,6 +53,8 @@ nav{
 .nav-center{
     background-color: #E8E8E8;
     width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .nav-links li{
@@ -94,8 +100,8 @@ nav{
 .about-me {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: 450px;
+    margin-right: 450px;
     line-height: 180%;
 }
 
