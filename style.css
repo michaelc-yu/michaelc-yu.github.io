@@ -239,7 +239,8 @@ button[type="submit"]:hover{
     outline:#080008;
     outline: 0.01em solid black; float: left;
     height:620px;
-    width:550px;
+    /* width: 550px; */
+    width: 30%;
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 2%;
