@@ -4,6 +4,8 @@
 	font-family: "popppins", sans-serif;
 	box-sizing: border-box;
     font-weight: 500;
+    overflow: hidden;
+    overflow-y: auto;
 }
 
 html {
