@@ -11,10 +11,6 @@
     <nav>
         <div class="nav-center">
             <ul class="nav-links">
-                <!-- <li><a href="index.html">Home</a></li> -->
-                <!-- <li><a href="about.html">About Me</a></li> -->
-                <!-- <li><a href="projects.html">Projects</a></li> -->
-                <!-- <li><a href="blog.html">Blog</a></li> -->
                 <li><a href="#Home">Home</a></li>
                 <li><a href="#About">About Me</a></li>
                 <li><a href="#Projects">Projects</a></li>
@@ -22,9 +18,51 @@
             </ul>
         </div>
     </nav>
-    <br>
-    <div id="Home"></div>
-    <span class="info">
+    <br><br><br><br><br><br>
+
+    <div id="particles-js">
+        <div id="Home"></div>
+        <span class="info1">
+            <br><br><br><br>
+            <p style="font-size: 20px">Hi, I'm Michael Yu.</p>
+            <br>
+            <img id="profile" src="images/colorfulportrait-modified-2.png" style alt="" class="center" width="380" height="380">
+            <br>
+        
+            <div class="container">
+                <h1>I am <span class="elt"></span></h1>
+            </div>
+        
+            <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed(".elt", {
+                    strings: ["a Software Engineer.", "an avid learner.", "a tennis player."],
+                    typeSpeed: 50,
+                    backSpeed: 30,
+                    loop: true
+                })
+            </script>
+        </span>
+        <br><br><br>
+        
+        <div class="contact-info">
+            <a href="https://www.linkedin.com/in/michael-yu-655190187/"><img class="contact-link"
+                    src="./images/linkedin-icon.png" style="width:54px;height:54px;"></a>
+            <a href="https://github.com/michaelc-yu"><img class="contact-link" src="./images/Octocat.png"
+                    style="width:80px; height:66.5px;"></a>
+            <a href="mailto:c.michael.yu@gmail.com"><img class="contact-link" src="./images/mailto.png"
+                    style="width:70px; height:70px; position:relative; top:7px"></a>
+            <a href="https://www.instagram.com/michaelyu68/" target="_blank"><img class="contact-link"
+                    src="images/instagram.png" alt="instagram link" style="width:50px; height:50px;"></a>
+        </div>
+        <br><br><br>
+    </div>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+
+
+    <!-- <div id="Home"></div>
+    <span class="info1">
         <br><br><br><br><br><br>
         <p style="font-size: 20px">Hi, I'm Michael Yu.</p>
         <br>
@@ -56,10 +94,10 @@
         <a href="https://www.instagram.com/michaelyu68/" target="_blank"><img class="contact-link" src="images/instagram.png" alt="instagram link"
             style="width:50px; height:50px;"></a>
     </div>
-    <br><br><br>
+    <br><br><br> -->
 
 
-    <br><br><br><br><br>
+    <br><br><br><br>
 
 
     <h2 id="About">
@@ -67,7 +105,7 @@
         <div style="text-align:center">About Me</div>
     </h2>
     <br><br><br>
-    <span class="info">
+    <span class="info2">
         <br>
         <p class="about-me">Hi, I'm a senior at the University of Michigan pursuing a B.S. in computer science. I'm
             proficient in C, C++, Python, and am familiar with JavaScript, HTML/CSS as well. I have been enjoying
@@ -121,7 +159,7 @@
 
 
     <h1 id="Projects">
-        <br><br><br><br><br>
+        <br><br><br><br>
         <div style="text-align:center">Projects</div>
     </h1>
     <br><br><br><br>
@@ -155,9 +193,7 @@
             <h3 style="text-align: center;">ElderTree</h3>
             <br>
             <p style="text-align: center; margin-left:20px; margin-right:20px">
-                Designed and created a scalable application for elders to connect using React.js, Flask, SQL, Python,
-                HTML/CSS, and
-                hosted on Amazon Web Services’s EC2.
+                Designed and created a scalable application for elders to connect using React.js, Flask, SQL, Python, HTML/CSS, and hosted on Amazon Web Services’s EC2. Maintained a database of accounts and posts with CRUD (create, read, update, delete) features.
             </p>
         </div>
         <div class="project-container">
