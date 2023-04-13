@@ -81,10 +81,33 @@ canvas {
     border-radius: 50%;
 }
 
-.container h1{
+.I-am-container h1{
     font-size: 25px;
     font-weight: 300;
     text-align: center;
+    top: 40px;
+}
+
+.contact-info {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.contact-link {
+    transition: 1s ease;
+}
+
+.contact-link:hover {
+    -webkit-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+    transition: 1s ease;
 }
 
 .header{
@@ -289,28 +312,6 @@ button[type="submit"]:hover{
 }
 #slider-image-3:target ~ .image-container{
 	left: -1600px;
-}
-
-.contact-info{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 43%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-.contact-link {
-    transition: 1s ease;
-}
-
-.contact-link:hover{
-    -webkit-transform: scale(0.85);
-    -ms-transform: scale(0.85);
-    transform: scale(0.85);
-    transition: 1s ease;
 }
 
 .project-container {
