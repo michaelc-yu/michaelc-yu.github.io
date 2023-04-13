@@ -150,7 +150,7 @@ nav{
 
 .info1 {
     position: absolute;
-    margin-top: 10px;
+    margin-top: 1.5%;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
     align-items: center;
@@ -293,7 +293,7 @@ button[type="submit"]:hover{
     align-items: center;
     justify-content: center;
     position: absolute;
-    margin-top: 25%;
+    margin-top: 15%;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -332,6 +332,7 @@ button[type="submit"]:hover{
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     margin-left: 10%;
-    margin-right: 15%;
     line-height: 180%;
+    align-items: center;
+    justify-content: center;
 }
