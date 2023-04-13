@@ -249,12 +249,6 @@ button[type="submit"]:hover{
 	background-color: rgb(214, 226, 236);
 }
 
-.projects{
-	margin-left: 15%;
-    align-items: center;
-    line-height: 160%;
-}
-
 .blog-container{
 	margin-left: 10%;
 	margin-right: 15%;
@@ -316,16 +310,24 @@ button[type="submit"]:hover{
 	left: -1600px;
 }
 
+.projects {
+    line-height: 160%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .project-container {
     outline:#080008;
     outline: 0.01em solid black; float: left;
-    /* height:700px; */
     height: 650px;
-    width: 550px;
-    /* width: 80%; */
+    width: 25%;
     margin-top: 2%;
     margin-bottom: 2%;
-    margin-left: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
     box-shadow: 10px 10px 5px darkgrey;
 }
 
