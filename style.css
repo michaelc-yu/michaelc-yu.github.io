@@ -327,3 +327,11 @@ button[type="submit"]:hover{
     background-color: lightsteelblue;
     transition-delay: 0.04s;
 }
+
+.blog {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 15%;
+    line-height: 180%;
+}
