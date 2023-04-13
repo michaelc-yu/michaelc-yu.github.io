@@ -296,7 +296,7 @@ button[type="submit"]:hover{
     align-items: center;
     justify-content: center;
     position: absolute;
-    margin-top: 15%;
+    top: 43%;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
