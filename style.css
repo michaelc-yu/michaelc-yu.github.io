@@ -76,9 +76,9 @@ canvas {
 }
 
 #profile{
-    height: 200px;
-    width: 200px;
-    left: 20px;  
+    height: 8%;
+    width: 8%;
+    /* left: 20px;   */
 }
 
 .container h1{
@@ -231,10 +231,13 @@ button[type="submit"]:hover{
 }
 
 .blog-container{
-	margin-left: 200px;
-	margin-right: 300px;
+	margin-left: 10%;
+	margin-right: 15%;
 	margin-top: 20px;
-	line-height: 25px;
+	line-height: 180%;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
 }
 
 .slide-container{
