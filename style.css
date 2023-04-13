@@ -85,7 +85,7 @@ canvas {
     font-size: 25px;
     font-weight: 300;
     text-align: center;
-    top: 40px;
+    top: 40%;
 }
 
 .contact-info {
@@ -93,7 +93,7 @@ canvas {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 45%;
+    top: 70%;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -326,7 +326,7 @@ button[type="submit"]:hover{
     outline:#080008;
     outline: 0.01em solid black; float: left;
     height: 650px;
-    width: 25%;
+    width: 45%;
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 1%;
