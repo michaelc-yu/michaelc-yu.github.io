@@ -76,9 +76,9 @@ canvas {
 }
 
 #profile{
-    height: 8%;
-    width: 8%;
-    /* left: 20px;   */
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
 
 .container h1{
