@@ -343,11 +343,12 @@ button[type="submit"]:hover{
     text-align: left;
     align-items: center;
     justify-content: center;
+    background-color: #F0F0F0;
 }
 
 .blog-container:hover {
-    background-color: #E0E0E0;
-    transition-delay: 0.08s;
+    background-color: #DCDCDC;
+    transition-delay: 0.06s;
     cursor: pointer;
 }
 
