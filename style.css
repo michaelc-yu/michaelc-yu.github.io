@@ -240,16 +240,6 @@ button[type="submit"]:hover{
 	background-color: rgb(214, 226, 236);
 }
 
-.blog-container{
-	margin-left: 10%;
-	margin-right: 15%;
-	margin-top: 20px;
-	line-height: 180%;
-    text-align: left;
-    align-items: center;
-    justify-content: center;
-}
-
 .slide-container{
 	width: 800px;
 	height: 600px;
@@ -337,11 +327,6 @@ button[type="submit"]:hover{
     /* margin-bottom: var(--bs-card-title-spacer-y); */
 }
 
-/* .project-title:hover {
-    background-color: lightsteelblue;
-    transition-delay: 0.04s;
-} */
-
 .blog {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
@@ -349,4 +334,28 @@ button[type="submit"]:hover{
     line-height: 180%;
     align-items: center;
     justify-content: center;
+}
+
+.blog-container {
+    margin-left: 10%;
+    margin-right: 40%;
+    line-height: 180%;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-container:hover {
+    background-color: #E0E0E0;
+    transition-delay: 0.08s;
+    cursor: pointer;
+}
+
+.read-more {
+    margin-left: 5%;
+    line-height: 180%;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    color: #3457D5;
 }
