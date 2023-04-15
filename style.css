@@ -338,7 +338,7 @@ button[type="submit"]:hover{
 
 .blog-container {
     margin-left: 10%;
-    /* margin-right: 40%; */
+    margin-right: 10%;
     line-height: 180%;
     text-align: left;
     align-items: center;
