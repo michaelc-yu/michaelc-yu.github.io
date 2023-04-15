@@ -331,6 +331,7 @@ button[type="submit"]:hover{
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     margin-left: 5%;
+    margin-right: 5%;
     line-height: 180%;
     align-items: center;
     justify-content: center;
