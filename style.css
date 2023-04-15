@@ -338,12 +338,13 @@ button[type="submit"]:hover{
 
 .blog-container {
     margin-left: 10%;
-    margin-right: 40%;
+    /* margin-right: 40%; */
     line-height: 180%;
     text-align: left;
     align-items: center;
     justify-content: center;
     background-color: #F0F0F0;
+    max-width: 1260px;
 }
 
 .blog-container:hover {
