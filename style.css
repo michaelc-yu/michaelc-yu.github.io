@@ -350,7 +350,7 @@ button[type="submit"]:hover{
 
 .blog-container:hover {
     background-color: #DCDCDC;
-    transition-delay: 0.06s;
+    transition-delay: 0.0s;
     cursor: pointer;
 }
 
