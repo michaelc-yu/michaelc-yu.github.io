@@ -129,10 +129,11 @@ nav {
 
 .nav-links {
     padding: 28px 0;
+    margin-left: 1350px;
 }
 
 .nav-center {
-    background-color: #E8E8E8;
+    background-color: #ffffff;
     width: 100%;
     position: fixed;
     top: 0;
