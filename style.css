@@ -1,8 +1,8 @@
-*{
-	margin: 0;
-	padding: 0;
-	font-family: "popppins", sans-serif;
-	box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "popppins", sans-serif;
+    box-sizing: border-box;
     font-weight: 500;
     overflow-x: hidden;
     overflow-y: auto;
@@ -12,13 +12,13 @@ html {
     scroll-behavior: smooth;
 }
 
-:root{
+:root {
     --primary-color: #fff;
     --secondary-color: #000;
 
 }
 
-.bg{
+.bg {
     background: #f6f6f6;
 }
 
@@ -27,10 +27,10 @@ canvas {
     vertical-align: bottom;
 }
 
-#particles-js{
+#particles-js {
     width: 100%;
     height: 20%;
-    background-color:#f6f6f6;
+    background-color: #f6f6f6;
     background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,13 +73,13 @@ canvas {
     border-radius: 0 0 3px 3px;
 }
 
-#profile{
+#profile {
     height: 200px;
     width: 200px;
     border-radius: 50%;
 }
 
-.I-am-container h1{
+.I-am-container h1 {
     font-size: 25px;
     font-weight: 300;
     text-align: center;
@@ -111,27 +111,27 @@ canvas {
     transition: 1s ease;
 }
 
-.header{
-	height: 100vh;
-	width: 100%;
-	padding: 0 8%;
-	background: #080008;
-	position: relative;
+.header {
+    height: 100vh;
+    width: 100%;
+    padding: 0 8%;
+    background: #080008;
+    position: relative;
 }
 
-nav{
+nav {
     /* position: absolute; */
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #E8E8E8;
 }
 
-.nav-links{
-	padding: 28px 0;
+.nav-links {
+    padding: 28px 0;
 }
 
-.nav-center{
+.nav-center {
     background-color: #E8E8E8;
     width: 100%;
     position: fixed;
@@ -139,37 +139,37 @@ nav{
     z-index: 2;
 }
 
-.nav-links li{
-	display: inline-block;
-	margin: 0 15px;
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
 }
 
-.nav-links li a{
-	text-decoration: none;
-	color: black;
-	padding: 5px 0;
-	position: relative;
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 0;
+    position: relative;
 }
 
-.nav-links li a::after{
-	content: '';
-	background: #653f33;
-	width: 0;
-	height: 2px;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	transition: width 0.5s;
+.nav-links li a::after {
+    content: '';
+    background: #653f33;
+    width: 0;
+    height: 2px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
 }
 
-.nav-links li a:hover::after{
-	width: 100%;
+.nav-links li a:hover::after {
+    width: 100%;
 }
 
-.center{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .info2 {
@@ -184,10 +184,10 @@ nav{
 }
 
 .about-me {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: DM Sans, DM Sans Placeholder, sans-serif;
     text-align: left;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
     line-height: 180%;
 }
 
@@ -201,94 +201,97 @@ nav{
     justify-content: center;
 }
 
-.form{
-	margin-left: 80px;
+.form {
+    margin-left: 80px;
 }
 
-.form-group{
-	width: 50%;
-	margin-top: 20px;
-	margin-left: 80px;
-	font-size: 15px;
+.form-group {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 15px;
 }
+
 .form-group input,
-.form-group textarea{
-	width: 100%;
-	padding: 5px;
-	font-size: 18px; 
-	border: 1px solid;
-	margin-top: 5px;
-	margin-left: 0px;
+.form-group textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid;
+    margin-top: 5px;
+    margin-left: 0px;
 }
 
-button[type="submit"]{
-	width: 50%;
-	margin-left: 80px;
-	border: none;
-	outline: none;
-	padding: 20px;
-	font-size: 15px;
-	border-radius: 8px;
-	font-family: 'Montserrat';
-	text-align: center;
-	cursor: pointer;
-	margin-top: 10px;
-	transition: .3s ease background-color;
+button[type="submit"] {
+    width: 50%;
+    margin-left: 80px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: .3s ease background-color;
 }
 
-button[type="submit"]:hover{
-	background-color: rgb(214, 226, 236);
+button[type="submit"]:hover {
+    background-color: rgb(214, 226, 236);
 }
 
-.slide-container{
-	width: 800px;
-	height: 600px;
-	margin-left: auto;
-	margin-right: auto;
-	overflow: hidden;
-	text-align: center;
+.slide-container {
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
 }
 
-.image-container{
-	width: 2184px;
-	height: 600px;
-	position: relative;
-	transition: left 2s;
-	-webkit-transition: left 2s;
-	-moz-transition: left 2s;
-	-o-transition: left 2s;
+.image-container {
+    width: 2184px;
+    height: 600px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
 }
 
-.slider-image{
-	max-width: 800px;
-	max-height: 600px;
-	float: left;
-	margin: 0px;
-	padding: 0px;
+.slider-image {
+    max-width: 800px;
+    max-height: 600px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
 }
 
-.button-container{
-	top: -110px;
-	color: black;
-	position: relative;
+.button-container {
+    top: -110px;
+    color: black;
+    position: relative;
 }
 
-.slider-button{
-	display: inline-block;
-	height: 10px;
-	width: 10px;
-	border-radius: 5px;
-	background-color: white;
+.slider-button {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: white;
 }
 
-#slider-image-1:target ~ .image-container{
-	left: 0px;
+#slider-image-1:target~.image-container {
+    left: 0px;
 }
-#slider-image-2:target ~ .image-container{
-	left: -672px;
+
+#slider-image-2:target~.image-container {
+    left: -672px;
 }
-#slider-image-3:target ~ .image-container{
-	left: -1600px;
+
+#slider-image-3:target~.image-container {
+    left: -1600px;
 }
 
 .projects {
@@ -305,8 +308,9 @@ button[type="submit"]:hover{
 }
 
 .project-container {
-    outline:#080008;
-    outline: 0.01em solid black; float: left;
+    outline: #080008;
+    outline: 0.01em solid black;
+    float: left;
     height: 650px;
     width: 450px;
     margin-top: 2%;
@@ -346,13 +350,15 @@ button[type="submit"]:hover{
     justify-content: center;
     background-color: #F0F0F0;
     max-width: 1260px;
+    font-family: sans-serif;
 }
 
+/*
 .blog-container:hover {
     background-color: #DCDCDC;
-    transition-delay: 0.0s;
+    transition-delay: 0s;
     cursor: pointer;
-}
+}*/
 
 .read-more {
     margin-left: 5%;
