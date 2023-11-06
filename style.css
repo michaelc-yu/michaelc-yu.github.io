@@ -311,10 +311,10 @@ button[type="submit"]:hover {
     outline: #080008;
     outline: 0.01em solid black;
     float: left;
-    height: 650px;
+    height: 440px;
     width: 450px;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     background: #29465B;
     color: #fff;
     align-items: center;
