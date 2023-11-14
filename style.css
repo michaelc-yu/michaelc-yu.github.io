@@ -338,6 +338,7 @@ button[type="submit"]:hover {
     line-height: 180%;
     align-items: center;
     justify-content: center;
+    font-size: small;
 }
 
 .blog-container {
@@ -347,17 +348,19 @@ button[type="submit"]:hover {
     text-align: left;
     align-items: center;
     justify-content: center;
-    background-color: #F0F0F0;
+    /* background-color: #F0F0F0; */
     max-width: 1260px;
     font-family: sans-serif;
 }
 
-/*
-.blog-container:hover {
-    background-color: #DCDCDC;
-    transition-delay: 0s;
-    cursor: pointer;
-}*/
+hr {
+    width: 80%;
+    /* align-items: center;
+    justify-content: center;
+    align-self: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .read-more {
     margin-left: 5%;
@@ -366,6 +369,7 @@ button[type="submit"]:hover {
     align-items: center;
     justify-content: center;
     color: #3457D5;
+    font-size: small;
 }
 
 /* new */
