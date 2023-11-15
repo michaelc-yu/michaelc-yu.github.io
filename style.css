@@ -323,12 +323,12 @@ button[type="submit"]:hover {
     flex-direction: column;
 }
 
-.project-title {
+/* .project-title {
     font-size: 25px;
-    /* text-align: center; */
-    /* margin-left: 10px; */
-    /* margin-bottom: var(--bs-card-title-spacer-y); */
-}
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: var(--bs-card-title-spacer-y);
+} */
 
 .blog {
     font-family: Arial, Helvetica, sans-serif;
@@ -411,12 +411,14 @@ hr {
     width: 80%;
 }
 .project-title {
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 20px;
+    color: aliceblue;
 }
 .project-description {
     text-align: center;
     font-size: 14px;
+    color: aliceblue;
 }
 
 .project-images-container-2 {
@@ -432,4 +434,12 @@ hr {
 .project-images-container-2:hover .project-details {
     opacity: 1;
     /* Make the text visible on hover */
+}
+
+
+#grey-section {
+    background-color: #4e4848;
+    /* Change this to the desired gray color */
+    padding: 20px;
+    /* Adjust the padding as needed */
 }
