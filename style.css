@@ -491,12 +491,11 @@ hr {
     .projects {
         grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
     }
-    .project1,
-    .project2,
-    .project3,
-    .project4,
     .project5,
-    .project6 {
+    .project1,
+    .project4,
+    .project2,
+    .project3 {
         width: 100%;
         grid-column: auto;
         grid-row: auto;
