@@ -469,15 +469,22 @@ hr {
     opacity: 1;
 }
 
+@media only screen and (max-width: 767px) {
+    .projects {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+
+    .project1,
+    .project2,
+    .project3,
+    .project4,
+    .project5,
+    .project6 {
+        width: 100%;
+    }
+}
 
 .projects {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 5px;
-    max-width: 1150px;
-    margin: 0 auto; */
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     grid-gap: 15px;
