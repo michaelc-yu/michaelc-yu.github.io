@@ -469,20 +469,6 @@ hr {
     opacity: 1;
 }
 
-@media only screen and (max-width: 767px) {
-    .projects {
-        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-    }
-
-    .project1,
-    .project2,
-    .project3,
-    .project4,
-    .project5,
-    .project6 {
-        width: 100%;
-    }
-}
 
 .projects {
     display: grid;
@@ -491,6 +477,30 @@ hr {
     max-width: 1020px;
     margin: 0 auto;
     grid-auto-flow: dense;
+}
+.project1,
+.project2,
+.project3,
+.project4,
+.project5,
+.project6 {
+    width: 294px;
+}
+
+@media only screen and (max-width: 767px) {
+    .projects {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+    .project1,
+    .project2,
+    .project3,
+    .project4,
+    .project5,
+    .project6 {
+        width: 100%;
+        grid-column: auto;
+        grid-row: auto;
+    }
 }
 
 .project-container {
