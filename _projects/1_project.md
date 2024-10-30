@@ -5,5 +5,8 @@ description: An implementation of DeepMind's AlphaGo.
 img: assets/img/12.jpg
 importance: 1
 category: fun
-related_publications: true
 ---
+
+<script type="text/javascript">
+    window.location.href = "https://github.com/michaelc-yu/alphago";
+</script>

@@ -5,5 +5,9 @@ description: Architecture involves using a bottom-up FasterRCNN network for visi
 img: assets/img/3.jpg
 importance: 1
 category: fun
-giscus_comments: true
+# redirect_to: https://github.com/michaelc-yu/multimodal-Visual-Question-Answering
 ---
+
+<script type="text/javascript">
+    window.location.href = "https://github.com/michaelc-yu/multimodal-Visual-Question-Answering";
+</script>
