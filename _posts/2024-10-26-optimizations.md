@@ -1,7 +1,7 @@
 ---
 layout: post
 title: LLM optimizations
-date: 2024-04-29 23:36:10
+date: 2024-10-26 23:36:10
 description: walkthrough of various model optimization techniques
 tags: machine-learning
 # categories: machine-learning
@@ -9,7 +9,8 @@ typograms: true
 featured: false
 related_posts: false
 ---
-<!-- 
+
+
 ## Optimizing the attention mechanism
 
 ### Multi-query attention
@@ -48,4 +49,4 @@ Similar to quantization, it's been shown that many deep learning models are robu
 This process involves training a smaller model that's called a student model to mimic the behavior of the larger model (the teacher model). The student model will be trained to mirror the performance of the teacher model, with a loss function that measures the discrepancy between their outputs. DistilBERT compresses a BERT model by 40% while retaining 97% of its language understanding capabilities at a 60% faster speed.
 
 
- -->
+

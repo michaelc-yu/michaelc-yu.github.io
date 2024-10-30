@@ -1,7 +1,7 @@
 ---
 layout: post
 title: neuroscience notes
-date: 2024-04-29 23:36:10
+date: 2024-10-26 23:36:10
 description: interesting concepts from neuroscience and psychobiology
 tags: neuroscience
 # categories: machine-learning
