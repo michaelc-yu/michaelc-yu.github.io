@@ -23,7 +23,7 @@ Modern brain theories posit that memories for concepts are stored in overlapping
 
 Retrieval of one memory causes activation to spread out to the nearby nodes representing related memories. In neurobiology we think of neurons as being arranged in networks. The more distant the connection between neurons, the longer it should take for one neuron to activate another, and the less likely it would be for that one neuron to activate the other.
 
-{% include figure.liquid loading="eager" path="assets/img/spreading.jpg" width="40%" %}
+{% include figure.liquid loading="eager" path="assets/img/spreading.jpg" width="50%" %}
 
 <br>
 
@@ -50,7 +50,7 @@ A dendritic spine is a small membranous profusion from a neuron's dendrite that 
 The more the spines are stimulated, the bigger, more stable, and longer lived they become (in contrast with smaller, immature spines, which are more transient).
 These large, so-called mushroom or stubby spines are thought to be one of the physical correlates of memory.
 
-{% include figure.liquid loading="eager" path="assets/img/spine.jpg" width="50%" %}
+{% include figure.liquid loading="eager" path="assets/img/spine.jpg" width="60%" %}
 
 Repeated long-term potentiation causes spines to become larger and heartier.
 <br><br>

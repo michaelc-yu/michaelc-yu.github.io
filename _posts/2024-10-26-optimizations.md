@@ -22,7 +22,7 @@ Multi-query attention (MQA) shares the keys and values among all the attention h
 
 Grouped-query attention (GQA) projects keys and values to a few groups of query heads. It has more key-value heads than one, but fewer than the number of query heads. It's a balance between multi-head attention and multi-query attention.
 
-{% include figure.liquid loading="eager" path="assets/img/gqa.jpg" width="60%"%}
+{% include figure.liquid loading="eager" path="assets/img/gqa.jpg"%}
 <br>
 
 #### Flash attention
@@ -37,7 +37,7 @@ I/O aware means it takes into account some of the memory movement costs previous
 
 Exact attention means that it is mathematically identical to the standard multi-head attention (with variants available for multi-query and grouped-query attention), and so can be swapped into an existing model architecture or even an already-trained model with no modifications.
 
-{% include figure.liquid loading="eager" path="assets/img/flashattn.jpg" width="75%"%}
+{% include figure.liquid loading="eager" path="assets/img/flashattn.jpg"%}
 <!-- 
 ----
 <br>
