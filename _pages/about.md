@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: AI Research Engineer. SWE. 
+subtitle: SWE. AI Research Engineer.
 
 profile:
   align: right
