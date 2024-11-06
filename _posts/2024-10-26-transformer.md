@@ -1,7 +1,7 @@
 ---
 layout: post
 title: transformer architecture
-date: 2024-10-26 15:09:00
+date: 2024-10-26 23:36:11
 description: in-depth walkthrough of transformer architecture
 tags: machine-learning
 # categories: machine-learning
@@ -25,7 +25,7 @@ The decoder's role is output generation. It does this sequentially (next token p
 <br><br>
 
 <div style="text-align: center;">
-    {% include figure.liquid loading="eager" path="assets/img/attention.jpg" width="80%"%}
+    {% include figure.liquid loading="eager" path="assets/img/attention.jpg"%}
     self-attention mechanism diagram - depicts steps 3, 4, and 5 above
 </div>
 <br>
@@ -44,7 +44,7 @@ The decoder's role is output generation. It does this sequentially (next token p
 <br><br>
 
 <div style="text-align: center;">
-    {% include figure.liquid loading="eager" path="assets/img/transformer.jpg" width="40%"%}
+    {% include figure.liquid loading="eager" path="assets/img/transformer.jpg" width="80%"%}
     Transformer architecture from the paper "Attention Is All You Need" (Vaswani et al., 2017).
 </div>
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: LLM optimizations
-date: 2024-10-26 23:36:10
+date: 2024-10-26 16:36:10
 description: optimizing inference and memory in large language models
 tags: machine-learning
 # categories: machine-learning
