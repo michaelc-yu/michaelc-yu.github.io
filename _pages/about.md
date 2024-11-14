@@ -20,9 +20,9 @@ social: true # includes social icons at the bottom of the page
 
 Hi. I'm a software engineer. I'm also interested in deep learning, natural language processing, and neuroscience.
 
-My long-term goal is to become an AI researcher and improve upon models' ability to think and generalize like humans. I plan to approach this by understanding and improving upon the reasoning capabilities of large language models by drawing inspirations from cognitive neuroscience.
+My research interest is broadly in building machines that think like humans. I plan to approach this by understanding and improving upon the reasoning capabilities of LLMs by drawing inspirations from cognitive neuroscience.
 
-I'm also interested in applying mechanistic interpretability approaches to study which parts of model architectures are most responsible for reasoning capabilities. By studying the internal structure of models, we can understand how specific concepts and reasoning steps are represented within a neural network. This can provide insight into the depth and limitations of a model's comprehension.
+I'm also excited about applying mechanistic interpretability approaches to study the internal architectures most responsible for reasoning capabilities of language models, to help align machine reasoning with human reasoning for advancing interpretable and safe intelligence.
 
 
 <!-- Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
