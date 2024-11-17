@@ -22,7 +22,7 @@ Hi. I'm a software engineer. I'm also interested in deep learning, natural langu
 
 My research interest is broadly in building machines that think like humans. I plan to approach this by understanding and improving upon the reasoning capabilities of LLMs by drawing inspirations from cognitive neuroscience.
 
-I'm also excited about applying mechanistic interpretability approaches to study the internal architectures most responsible for reasoning capabilities of language models, to help align machine reasoning with human reasoning for advancing interpretable and safe intelligence.
+I'm also excited about applying mechanistic interpretability approaches to study the internal architectures most responsible for reasoning capabilities of language models, to help align machine reasoning with human reasoning for advancing interpretable and safe artificial intelligence.
 
 
 <!-- Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
