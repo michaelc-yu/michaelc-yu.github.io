@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi. I'm an software engineer. I'm also interested in deep learning, natural language processing, and neuroscience.
+Hi. I'm a software engineer. I'm also interested in deep learning, natural language processing, and neuroscience.
 
 My research interest is broadly in building machines that think like humans. I plan to approach this by understanding and improving upon the reasoning capabilities of LLMs by drawing inspirations from cognitive neuroscience.
 
