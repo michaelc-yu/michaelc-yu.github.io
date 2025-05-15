@@ -1,6 +1,6 @@
 ---
 layout: post
-title: transformer architecture
+title: Transformer Architecture
 date: 2024-10-26 23:36:11
 description: in-depth walkthrough of the transformer architecture
 tags: machine-learning
