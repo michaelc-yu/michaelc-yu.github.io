@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Software Engineer
+# subtitle: Machine Learning Engineer
 
 profile:
   align: right
@@ -18,11 +18,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi. I'm a software engineer. I'm interested in deep learning, natural language processing, and neuroscience.
+Hi. I'm a machine learning engineer working on recommender systems. Also interested in chain-of-thought reasoning and multimodal AI.
 
-My research interest is broadly in building machines that think like humans. I plan to approach this by understanding and improving upon the reasoning capabilities of LLMs by drawing inspirations from cognitive neuroscience.
+<!-- My research interest is broadly in building machines that think like humans. I plan to approach this by understanding and improving upon the reasoning capabilities of LLMs by drawing inspirations from cognitive neuroscience. -->
 
-I'm also excited about applying mechanistic interpretability approaches to study the internal architectures most responsible for reasoning capabilities of language models, to help align machine reasoning with human reasoning for advancing interpretable and safe artificial intelligence.
+<!-- I'm also excited about applying mechanistic interpretability approaches to study the internal architectures most responsible for reasoning capabilities of language models, to help align machine reasoning with human reasoning for advancing interpretable and safe artificial intelligence. -->
 
 
 <!-- Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.

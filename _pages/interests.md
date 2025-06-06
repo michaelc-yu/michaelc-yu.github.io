@@ -7,7 +7,7 @@ nav: true
 nav_order: 9
 ---
 
-In my free time, I enjoy playing piano, tennis, and dancing.
+In my free time, I enjoy playing piano, tennis, and guitar.
 
 -----------------------
 
