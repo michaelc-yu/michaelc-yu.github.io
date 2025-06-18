@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a machine learning engineer working on recommender systems. Also interested in chain-of-thought reasoning and multimodal AI.
+I'm a machine learning engineer working on recommender systems. Interested in chain-of-thought reasoning and multimodal AI.
 
 <!-- My research interest is broadly in building machines that think like humans. I plan to approach this by understanding and improving upon the reasoning capabilities of LLMs by drawing inspirations from cognitive neuroscience. -->
 
