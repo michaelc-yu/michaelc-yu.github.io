@@ -13,11 +13,14 @@ List of common and popular models and algorithms used in recommendation systems.
 
 ## <b>Sequential Recommendation</b>
 
-#### <b>SASRec</b>
-
 #### <b>GRU4Rec</b>
+Many e-commerce recommender systems or news and media sites don't track user behavior across different sessions for privacy concerns, as well as the general difficulty and unreliability of doing so with cookies and browser fingerprinting. This is called session-based recommendation, where you don't know the user's long-term profile — you only observe the current session. GRU4Rec applies the GRU-based RNN for session-based recommendations. The model tries to capture short-term intent within the session.
+
+#### <b>SASRec</b>
+Self-Attentive Sequential Recommendation. Proposed in 2018 and one of the first works to apply the Transformer architecture (self-attention) to the sequential recommendation problem. It formulates sequential recommendation as next-item prediction, given a user's past interaction sequence. Self-attention helps capture both short and long-term preferences much better and more parallelizable than previous approaches like RNNs or Markov chains. It outperforms GRU4Rec on several datasets including MovieLens. It uses only the Transformer encoder stack. SASRec can process the entire concatenated history of a user — including multiple sessions — and predict the next item.
 
 
+<br><br>
 ## <b>Multi-Armed Bandits / Exploration-Exploitation</b>
 Multi-armed bandits (bandits) are a type of reinforcement learning. Their advantages over batch machine learning and A/B testing methods include continuously learning and adapting recommendations without the need for extensive data collection or offline model training. Usually performs better in situations with limited data or in cold-start scenarios.
 
@@ -64,21 +67,21 @@ Notes:<br>
 #### <b>Thompson Sampling</b>
 
 
-
+<br><br>
 ## <b>Wide & Deep Architectures</b>
 
 #### <b>Wide & Deep</b>
 
 #### <b>DeepFM</b>
 
-
+<br><br>
 ## <b>Classic Methods</b>
 
 #### <b>Matrix Factorization (MF)</b>
 
 #### <b>Neural Collaborative Filtering (NCF)</b>
 
-
+<br><br>
 ## <b>Graph-Based Methods</b>
 
 #### <b>PinSage</b>
