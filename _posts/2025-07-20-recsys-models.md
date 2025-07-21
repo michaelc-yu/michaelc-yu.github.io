@@ -71,6 +71,14 @@ Notes:<br>
 ## <b>Wide & Deep Architectures</b>
 
 #### <b>Wide & Deep</b>
+Wide & Deep learning jointly trains wide linear models and deep neural networks to combine the benefits of memorization (wide part) and generalization (deep part) for recommender systems.<br>
+The wide component's feature crosses are interpretable and effective and capturing known, explicit relationships. However, it also requires manual feature engineering to create effective crossing of features. For example (gender x city) or (item category x user membership).<br>
+
+The deep component is good at learning complex patterns. No manual feature engineering is required here since the model automatically learns through non-linear activation functions.<br>
+
+The output of both wide and deep components can be either scalar (solving binary classification problem like predicting CTR) or a vector of logits (solving a multi-class classification problem).
+Outputs of both components are combined to make final predictions. Can combine through either summing or concatenating and then feeding through a final dense layer.
+
 
 #### <b>DeepFM</b>
 
