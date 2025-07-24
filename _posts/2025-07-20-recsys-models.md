@@ -81,11 +81,23 @@ Outputs of both components are combined to make final predictions. Can combine t
 
 
 #### <b>DeepFM</b>
+Combines factorization machines (FM) for feature interactions (memorizations) and deep neural networks for generalization. Similar to Wide & Deep, but with factorization machines you don't need to manually craft cross features since FM does that for you. So it's just like Wide & Deep with ability to memorize and generalize patterns but wide part is implemented with factorization machine.<br><br>
+Factorization machine formula:<br><br>
+$$
+\hat{y}(x) = w_0 + \sum_{i=1}^{n} w_i x_i + \sum_{i=1}^{n} \sum_{j=i+1}^{n} \langle \mathbf{v}_i, \mathbf{v}_j \rangle x_i x_j
+$$
+<br><br>
+-$$x_i$$ are the input features<br>
+-$$w_0$$ is a global bias<br>
+-$$\mathbf{v}_i$$ is an embedding vector for feature i<br>
+<br>
+FMs generalize matrix factorization to work with any kind of feature data, not just user and item IDs. FMs give pairwise interactions.
 
 <br><br>
 ## <b>Classic Methods</b>
 
 #### <b>Matrix Factorization (MF)</b>
+Simple embedding model that decomposes a sparse user-item feedback matrix into the product of two dense lower-dimensional matrices. One is the user embedding matrix and the other is the item embedding matrix. Their product approximates the sparse rating matrix. This way, we can learn embedding for users and items.
 
 #### <b>Neural Collaborative Filtering (NCF)</b>
 
