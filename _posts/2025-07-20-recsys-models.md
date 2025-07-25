@@ -100,6 +100,7 @@ FMs generalize matrix factorization to work with any kind of feature data, not j
 Simple embedding model that decomposes a sparse user-item feedback matrix into the product of two dense lower-dimensional matrices. One is the user embedding matrix and the other is the item embedding matrix. Their product approximates the sparse rating matrix. This way, we can learn embedding for users and items.
 
 #### <b>Neural Collaborative Filtering (NCF)</b>
+Replaces the dot product in matrix factorization with neural networks. We concatenate user and item vector embeddings and feed into MLP which predicts something like click or no click, rating, etc. We train on interaction data; the user and item embeddings are learned during training and they are initially random vectors. Using neural networks instead of dot product (as in matrix factorization) allows nonlinearity and ability to model more complex patterns.
 
 <br><br>
 ## <b>Graph-Based Methods</b>
