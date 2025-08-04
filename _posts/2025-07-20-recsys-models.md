@@ -105,8 +105,33 @@ Replaces the dot product in matrix factorization with neural networks. We concat
 <br><br>
 ## <b>Graph-Based Methods</b>
 
+#### <b>GCN-based RecSys</b>
+Graph Convolutional Networks learn from data where the relationships between elements are represented as a graph with nodes and edges. A GCN layer updates each node's representation by aggregating features from its neighbors:
+
+-message passing: each node gathers information from its neighbors
+
+-aggregation: the collected features are combined (usually via summation, mean, or max)
+
+-transformation: the aggregated information is passed through a neural network layer (e.g., a linear transformation + activation)
+
+
+Stacking multiple convolutions allows information flow across far reaches of graph
+
+<br>
 #### <b>PinSage</b>
 
-#### <b>GCN-based RecSys</b>
+PinSage, released in 2018, is a highly-scalable (operating on a massive graph with three billion nodes and 18 billion edges) graph convolutional network framework developed and deployed at Pinterest.
 
+While previous GCN approaches use k-hop graph neighborhoods, PinSage defines neighborhoods based on importance of nearby nodes. The neighborhoods of a node are the T nodes that exert the most influence on that node.
+
+
+##### <b>Key points about PinSage: </b>
+
+-simulate random walks starting from node u and compute the L1-normalized visit count of nodes visited by the random walk. The neighborhood of u is then defined as the top T nodes with the highest normalized visit counts with respect to node u
+
+-stacking multiple convolutions on top of each other to gain more information about the local graph structure around node u. Layer 0 representations are equal to the input node features, and all other layers depend on the output from the previous layer
+
+-train PinSage using max-margin ranking loss: maximize inner product of positive pairs (q, i) (item i is a good recommendation candidate for query q), and minimize inner product of negative pairs, such that inner product of negative examples is smaller than that of positive examples by some pre-defined margin
+
+-train with multiple GPUs via data parallelism and large batch sizes
 
