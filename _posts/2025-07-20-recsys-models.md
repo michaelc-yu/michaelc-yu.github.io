@@ -135,3 +135,5 @@ While previous GCN approaches use k-hop graph neighborhoods, PinSage defines nei
 
 -train with multiple GPUs via data parallelism and large batch sizes
 
+-use re-indexing technique to create a sub-graph G' = (V', E') containing nodes and their neighborhood which will be involved in the computation of the current minibatch. Otherwise GPU accsesing data in CPU for neighborhood and feature information is slow and inefficient
+
