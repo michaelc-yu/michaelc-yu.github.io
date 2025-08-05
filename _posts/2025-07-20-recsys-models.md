@@ -14,7 +14,7 @@ List of common and popular models and algorithms used in recommendation systems.
 ## <b>Sequential Recommendation</b>
 
 #### <b>GRU4Rec</b>
-Many e-commerce recommender systems or news and media sites don't track user behavior across different sessions for privacy concerns, as well as the general difficulty and unreliability of doing so with cookies and browser fingerprinting. This is called session-based recommendation, where you don't know the user's long-term profile — you only observe the current session. GRU4Rec applies the GRU-based RNN for session-based recommendations. The model tries to capture short-term intent within the session.
+Many e-commerce recommender systems or news and media sites don't track user behavior across different sessions for privacy concerns and because it's difficult and unreliable with cookies and browser fingerprinting. Introduce session-based recommendation, where you don't know the user's long-term profile — you only observe the current session. GRU4Rec applies the GRU-based RNN for session-based recommendations. The model tries to capture short-term intent within the session.
 
 #### <b>SASRec</b>
 Self-Attentive Sequential Recommendation. Proposed in 2018 and one of the first works to apply the Transformer architecture (self-attention) to the sequential recommendation problem. It formulates sequential recommendation as next-item prediction, given a user's past interaction sequence. Self-attention helps capture both short and long-term preferences much better and more parallelizable than previous approaches like RNNs or Markov chains. It outperforms GRU4Rec on several datasets including MovieLens. It uses only the Transformer encoder stack. SASRec can process the entire concatenated history of a user — including multiple sessions — and predict the next item.
@@ -88,7 +88,7 @@ $$
 ## <b>Wide & Deep Architectures</b>
 
 #### <b>Wide & Deep</b>
-Wide & Deep learning jointly trains wide linear models and deep neural networks to combine the benefits of memorization (wide part) and generalization (deep part) for recommender systems.<br>
+Wide & Deep learning trains wide linear models and deep neural networks together to combine the benefits of memorization (wide part) and generalization (deep part) for recommender systems.<br>
 The wide component's feature crosses are interpretable and effective and capturing known, explicit relationships. However, it also requires manual feature engineering to create effective crossing of features. For example (gender x city) or (item category x user membership).<br>
 
 The deep component is good at learning complex patterns. No manual feature engineering is required here since the model automatically learns through non-linear activation functions.<br>
