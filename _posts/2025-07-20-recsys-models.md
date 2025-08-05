@@ -65,6 +65,23 @@ Notes:<br>
 
 
 #### <b>Thompson Sampling</b>
+Thompson Sampling is a Bayesian algorithm. In each round, parameters are sampled from the posterior and an action is chosen that maximizes expected reward given the sampled parameters and current context. Observe the reward and update the posterior for the arm that was just chosen.
+
+$$
+\begin{aligned}
+&\text{For each arm } a \in \{1, \dots, K\}, \text{ assume:} \\
+&\quad \theta_a \sim \text{Beta}(\alpha_a, \beta_a) \\
+&\quad r_t \sim \text{Bernoulli}(\theta_{a_t}) \\\\
+&\text{At each time step } t: \\
+&\quad \text{Sample } \hat{\theta}_a \sim \text{Beta}(\alpha_a, \beta_a), \quad \forall a \in \{1, \dots, K\} \\
+&\quad \text{Select arm } a_t = \arg\max_a \hat{\theta}_a \\
+&\quad \text{Play arm } a_t \text{ and observe reward } r_t \in \{0, 1\} \\\\
+&\text{Update the posterior:} \\
+&\quad \alpha_{a_t} \leftarrow \alpha_{a_t} + r_t \\
+&\quad \beta_{a_t} \leftarrow \beta_{a_t} + (1 - r_t)
+\end{aligned}
+$$
+
 
 
 <br><br>
