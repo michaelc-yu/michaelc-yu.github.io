@@ -154,3 +154,9 @@ While previous GCN approaches use k-hop graph neighborhoods, PinSage defines nei
 
 -use re-indexing technique to create a sub-graph G' = (V', E') containing nodes and their neighborhood which will be involved in the computation of the current minibatch. Otherwise GPU accsesing data in CPU for neighborhood and feature information is slow and inefficient
 
+-negative sampling: random selection of some negative pairs to push them apart when training. In PinSage training, they sample a set of 500 negative items that's shared by all training examples in each minibatch to speed up training. Also uses hard negative examples, which are somewhat related items but not as related as positive pair, to make model learn at finer granularity
+
+-since PinSage itself doesn't compute embeddings (it only trains a GCN to generate an embedding function given a node's features and neighborhood information), it needs an efficient way to actually compute the embedding vectors. It does so via MapReduce
+
+-given a query q, we can directly recommend items whose embeddings are the K-nearest neighbors of that embedding, based on the embeddings computed by PinSage. Approximate KNN can be obtained efficiently via locality sensitive hashing. See here: [Locality sensitive hashing wikipedia](https://en.wikipedia.org/wiki/Locality-sensitive_hashing)
+
