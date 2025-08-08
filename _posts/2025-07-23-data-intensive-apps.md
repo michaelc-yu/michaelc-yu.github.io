@@ -30,3 +30,10 @@ Online Analytical Processing (OLAP) systems are designed for complex data analys
 
 OLAP systems usually use star or snowflake schema. These involve using fact tables which connect to multiple dimension tables. Fact tables are very large and store quantitative data related to business needs. Dimension tables store descriptive context about the data in the fact table.
 
+<br>
+##### <b>Column-Oriented Storage</b>
+
+Fact tables often have many many columns but typical queries only access a few of them at once (SELECT x, y, z FROM ...).
+
+To execute queries efficiently, we can store all the values from each column together. A query only needs to read and parse those columns that are used in the query. This approach relies on that the rows in each column are in the same order. The 7th row of the table is the collection of the 7th entry in each column file.
+
