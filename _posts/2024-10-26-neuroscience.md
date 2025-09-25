@@ -2,7 +2,7 @@
 layout: post
 title: Neurobiology
 date: 2024-10-26 23:36:10
-description: interesting concepts from neurobiology
+description:
 tags: neurobiology
 # categories: machine-learning
 typograms: true

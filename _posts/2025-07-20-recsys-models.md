@@ -2,7 +2,7 @@
 layout: post
 title: Recsys Models
 date: 2025-07-20 00:36:00
-description: Popular recsys models / algorithms
+description: Recsys models & algorithms
 tags: machine-learning
 featured: false
 related_posts: false
