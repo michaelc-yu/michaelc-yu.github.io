@@ -19,7 +19,7 @@ Many e-commerce recommender systems or news and media sites don't track user beh
 #### <b>SASRec</b>
 Self-Attentive Sequential Recommendation. Proposed in 2018 and one of the first works to apply the Transformer architecture (self-attention) to the sequential recommendation problem. It formulates sequential recommendation as next-item prediction, given a user's past interaction sequence. Self-attention helps capture both short and long-term preferences much better and more parallelizable than previous approaches like RNNs or Markov chains. It outperforms GRU4Rec on several datasets including MovieLens. It uses only the Transformer encoder stack. SASRec can process the entire concatenated history of a user — including multiple sessions — and predict the next item.
 
-
+<!-- 
 <br><br>
 ## <b>Multi-Armed Bandits / Exploration-Exploitation</b>
 Multi-armed bandits (bandits) are a type of reinforcement learning. Their advantages over batch machine learning and A/B testing methods include continuously learning and adapting recommendations without the need for extensive data collection or offline model training. Usually performs better in situations with limited data or in cold-start scenarios.
@@ -80,7 +80,7 @@ $$
 &\quad \alpha_{a_t} \leftarrow \alpha_{a_t} + r_t \\
 &\quad \beta_{a_t} \leftarrow \beta_{a_t} + (1 - r_t)
 \end{aligned}
-$$
+$$ -->
 
 
 
