@@ -217,6 +217,8 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
+  # Parse $...$ / $$...$$ as math so _ inside subscripts isn’t treated as Markdown emphasis
+  math_engine: mathjax
   syntax_highlighter_opts:
     css_class: "highlight"
     span:

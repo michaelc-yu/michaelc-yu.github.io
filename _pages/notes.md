@@ -64,6 +64,10 @@ pagination:
 {% assign is_even = featured_posts.size | modulo: 2 %}
 <div class="row row-cols-{% if featured_posts.size <= 2 or is_even == 0 %}2{% else %}3{% endif %}">
 {% for post in featured_posts %}
+{% assign feat_tag_str = post.tags | join: " " %}
+{% assign feat_cat_str = post.categories | join: " " %}
+{% if feat_tag_str contains 'ml-paper-summary' or feat_cat_str contains 'ml-paper-summary' %}
+{% else %}
 <div class="col mb-4">
 <a href="{{ post.url | relative_url }}">
 <div class="card hoverable">
@@ -94,6 +98,7 @@ pagination:
             </div>
           </a>
         </div>
+{% endif %}
       {% endfor %}
       </div>
     </div>
@@ -110,6 +115,10 @@ pagination:
     {% endif %}
 
     {% for post in postlist %}
+    {% assign tag_str = post.tags | join: " " %}
+    {% assign cat_str = post.categories | join: " " %}
+    {% if tag_str contains 'ml-paper-summary' or cat_str contains 'ml-paper-summary' %}
+    {% else %}
 
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -184,6 +193,7 @@ pagination:
 </div>
 {% endif %}
     </li>
+    {% endif %}
 
     {% endfor %}
 
