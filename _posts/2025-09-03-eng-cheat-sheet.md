@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Engineering cheat-sheet
+title: Engineering reference sheet
 date: 2025-09-03 12:00:00
 description:
 tags: systems; engineering
